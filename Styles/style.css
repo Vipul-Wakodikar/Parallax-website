@@ -145,31 +145,28 @@ body, html {
 	}
 
   @media only screen and (max-width: 800px) {
-		.royal-images{
-			align-items: center;
-			max-width: 100%;
-			height: auto;
-			padding-right:2%;
-		}
-		.royal-valley{
-			padding-left: 0;
-			padding-right: 2%
-		}
-		.summary-image{
-			max-width: 100%;
-			height: auto;
-			padding-right: 2%;
-		}
-		.txt{
-			padding-right: 2%
-		}
-		.parallax h1{
-			padding-bottom: 30px;
-		}
-		.grid-container {
-
-		  grid-template-columns: auto auto;
-
-		}
-	
+	.royal-images{
+		align-items: center;
+		max-width: 100%;
+		height: auto;
+		padding-right:2%;
+	}
+	.royal-valley{
+		padding-left: 0;
+		padding-right: 2%
+	}
+	.summary-image{
+		max-width: 100%;
+		height: auto;
+		padding-right: 2%;
+	}
+	.txt{
+		padding-right: 2%
+	}
+	.parallax h1{
+		padding-bottom: 30px;
+	}
+	.grid-container {
+		 grid-template-columns: auto auto;
+	}
   }
