@@ -1,0 +1,175 @@
+@import url('http://fonts.cdnfonts.com/css/luna-2');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;900&display=swap');
+body, html {
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-weight: 400;
+	background-color: #222;
+	overflow-x: hidden;
+  }
+  .parallax{
+		box-sizing: border-box;
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+  }
+  .parallax{
+		background-image: url(../Images/1.jpg);
+		min-height: 100vh;
+  }
+  .parallax h1{
+		text-align: center;
+		font-family: 'Luna';
+		height: 50vh;
+		width: 100vw;
+		position: relative;
+		padding-top: 50vh;
+  }
+  .parallax p{
+		text-align: center;
+		font-family: 'Luna';
+		position: relative;
+		padding-top: 40px;
+  }
+  .parallax-2
+  {
+		box-sizing: border-box;
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+  }
+  .parallax-2{
+		background-image: url(../Images/8.jpg);
+		min-height: 100vh;
+  }
+  .parallax-2 h2{
+		text-align: center;
+		font-family: 'Luna';
+		height: 50vh;
+		width: 100vw;
+		position: relative;
+		padding-top: 50vh;
+		
+  }
+  .fontpro{
+		font-family: 'Roboto Slab', serif;
+		font-weight: 400;
+		font-size: 1.5rem;
+		text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  }
+
+  .summary{
+		font-color: #fff;
+		background-color: #222;
+		padding-left: 2%;
+		text-align: justify;
+		z-index: 1;
+		padding-bottom: 0;
+  }
+  .summary h2{
+		padding: 5px;
+  }
+  .summary-image{
+		backface-visibility: hidden;
+		opacity: 1;
+		padding-top: 1%;
+		margin: 0;
+		float: right;
+		/*background-color: #222;
+		content: url(../Images/4.-jpg);*/
+		max-width: 30%;
+		height: 40%;
+  }
+  .summary:hover .royal-images{
+		filter: contrast(120%);
+		padding-top: 0;
+		padding-bottom: 1%;
+		z-index: 10;
+  }
+  
+  .txt{
+		padding-right: 45%;
+  }
+  .royal-images{
+		padding-top: 1%;
+		padding-bottom: 2%;
+		margin: 0;
+		float: left;
+		max-width: 50%;
+		height: 150px;
+		display: block;
+		z-index: 5;
+  }
+  .royal-valley{
+		padding-left: 20%;
+		text-align: justify;
+		z-index: 1;
+		padding-bottom: 50px;
+		display: block;
+  }
+
+	.grid-container {
+	  display: grid;
+	  grid-column-gap: 50px;
+	  grid-template-columns: auto auto auto;
+	  background-color: #050505;
+	  padding: 10px;
+	  color: #666;
+	    grid-column-start: 1;
+		grid-column-end: 4;
+	}
+
+	footer{
+		background-color: #050505;
+	}
+
+	.grid-item {
+	  background-color: #050505;
+	  font-size: 15px;
+	  text-align: center;
+	  color: #666;
+	}
+	.grid-item>a {
+		color: white;
+		text-decoration: none;
+	}
+	.grid-item>a:hover {
+		color: red;
+		text-decoration: none;
+	}
+
+  @media only screen and (max-width: 800px) {
+		.royal-images{
+			align-items: center;
+			max-width: 100%;
+			height: auto;
+			padding-right:2%;
+		}
+		.royal-valley{
+			padding-left: 0;
+			padding-right: 2%
+		}
+		.summary-image{
+			max-width: 100%;
+			height: auto;
+			padding-right: 2%;
+		}
+		.txt{
+			padding-right: 2%
+		}
+		.parallax h1{
+			padding-bottom: 30px;
+		}
+		.grid-container {
+
+		  grid-template-columns: auto auto;
+
+		}
+	
+  }
